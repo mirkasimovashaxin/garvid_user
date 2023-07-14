@@ -1,37 +1,24 @@
 .Vazifa_white_blok {
-    width: 63%;
-    height: 800px;
+    width: 60%;
+    height: 700px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     padding-top: 10px;
     border-radius: 5px;
+    background-color: #fff;
 }
 
-.vazifa_blok {
-    width: 95%;
-    height: 90px;
-    border-radius: 10px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    margin: 20px auto;
-}
-
-.vazifa_blok:hover {
-    background: url('../img/Rectangle\ 17.png');
-    cursor: pointer;
-    color: black;
-}
 
 .vazifa_blok:hover .chec {
     background-color: white;
 }
 
-.vazifa_blok:hover .mb_h5 {
-    color: rgba(0, 0, 0, 0.432);
+.vazifa_blok{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 20px;
 }
-
-.close_x {
-    color: red;
+.vazifa_blok:hover{
+    background-color: #1194F32a;
 }
 
 .chec {
@@ -39,41 +26,56 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    margin-right: 0px;
 }
 
 .skachat_div_blue {
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+    display: flex;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
     background-color: #536DFD;
+    margin-left: 25px;
 }
 
-.title_h5 {
-    width: 400px;
-
+.title_h5 h5{
+    font-size: 17px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .checbox_skachat_div {
-    width: 50%;
+    padding:10px;
+    width: 90%;
+    margin-left: 5%;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-
+.bilmiman_vazifa{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-left: 0px;
+}
 .checbox {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
 }
 
 .vazifa_title_h5_icon {
-    width: 55%;
+    width: 40%;
     align-items: center;
     display: flex;
     justify-content: space-around;
+}
+.vazifa_title_h5_icon h5{
+    font-size: 17px;
 }
 
 .chec {
@@ -97,7 +99,6 @@
 
 .file_icon_text {
     width: 96%;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.705);
     align-items: center;
     margin: auto;
     display: flex;
@@ -105,6 +106,7 @@
 }
 
 .title_file_icon {
+    margin-top: 10px;
     width: 60%;
     align-items: center;
     display: flex;
@@ -112,13 +114,14 @@
 }
 
 .title_file_icon h6 {
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 10px;
+    margin-left: 15px;
 }
 
 .file {
     font-size: 25px;
-    color: rgba(0, 0, 0, 0.568);
+    color: #9DA7BB;
 }
 
 .close_x_delete {
@@ -135,19 +138,29 @@
 
 .vector {
     font-size: 25px;
-    color: rgba(0, 0, 0, 0.534);
+    color: #9DA7BB;
+    margin-left: 12px;
 }
 
-.inp {
+.line_vazifa{
+    width: 100%;
+height: 1px;
+background-color: #9da7bb62;
+margin-top: 15px;
+}
+
+.inp_vazifa {
+    padding-left: 5px;
     width: 90%;
     border: none;
     outline: none;
+    background-color: #fff;
 }
 
 .search_file_small {
     width: 100%;
     border-radius: 5px;
-    height: 100px;
+    height: 130px;
     border: 2px solid rgba(128, 128, 128, 0.493);
 }
 .seach_file{
@@ -167,4 +180,268 @@
     color: #fff;
     position: absolute;
     right: 0;
+}
+
+@media (max-width:1300px) {
+   
+    
+    .title_h5 h5{
+        font-size: 15px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    
+    .vazifa_blok{
+        width: 98%;
+        margin-left: 1%;
+        border-radius: 20px;
+    }
+    .vazifa_title_h5_icon h5{
+        font-size: 15px;
+    }
+    .seach_file{
+        width: 80%;
+        margin-left: 1%;
+    }
+}
+
+@media (max-width:1100px) {
+    .skachat_div_blue {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 25px;
+        background-color: #536DFD;
+        margin-left: 25px;
+    }
+    .title_h5 h5{
+        font-size: 13px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .vazifa_blok{
+        width: 100%;
+        margin-left: 0;
+        border-radius: 2px;
+    }
+    .vazifa_title_h5_icon h5{
+        font-size: 13px;
+        margin-left: 20px;
+    }
+    .chec {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid rgba(128, 128, 128, 0.5);
+        align-items: center;
+        text-align: center;
+        color: green;
+        font-size: 21px;
+        padding-top: 1px;
+    }
+    .title_file_icon h6 {
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .yubor{
+        width: 120px !important;
+        height: 34px;
+        border-radius: 4px;
+        margin-top: 20px;
+        border: none;
+        background-color: #536DFD;
+        color: #fff;
+        position: absolute;
+        right: 0;
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1000px) {
+    .Vazifa_white_blok {
+        width: 100%;
+        height: 700px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        padding-top: 10px;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+    .yubor{
+        width: 110px !important;
+        height: 34px;
+        border-radius: 4px;
+        margin-top: 20px;
+        border: none;
+        background-color: #536DFD;
+        color: #fff;
+        position: absolute;
+        right: 0;
+        font-size: 13px;
+    }
+}
+
+@media (max-width:600px) {
+    .skachat_div_blue {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 25px;
+        background-color: #536DFD;
+        margin-left: 15px;
+    }
+    .title_h5 h5{
+        font-size: 11px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .vazifa_blok{
+        width: 100%;
+        margin-left: 0;
+        border-radius: 2px;
+    }
+    .vazifa_title_h5_icon h5{
+        font-size: 11px;
+        margin-left: 20px;
+    }
+    .chec {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: 1px solid rgba(128, 128, 128, 0.5);
+        align-items: center;
+        text-align: center;
+        color: green;
+        font-size: 21px;
+        padding-top: 1px;
+    }
+    .title_file_icon h6 {
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .close_x_delete{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .inp_vazifa{
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    .vector{
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    .file{
+        font-size: 18px;
+    }
+    .search_file_small {
+        width: 100%;
+        border-radius: 5px;
+        height: 115px;
+        border: 2px solid rgba(128, 128, 128, 0.493);
+    }
+    .yubor{
+        width: 100px !important;
+        height: 34px;
+        border-radius: 4px;
+        margin-top: 20px;
+        border: none;
+        background-color: #536DFD;
+        color: #fff;
+        position: absolute;
+        right: 0;
+        font-size: 12px;
+    }
+}
+@media (max-width:500px) {
+    .vazifa_title_h5_icon h5{
+        display: none;
+    }
+}
+@media (max-width:400px) {
+    .skachat_div_blue {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 20px;
+        background-color: #536DFD;
+        margin-left: 15px;
+    }
+    .chec {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        border: 1px solid rgba(128, 128, 128, 0.5);
+        align-items: center;
+        text-align: center;
+        color: green;
+        font-size: 18px;
+        padding-top: 1px;
+    }
+}
+
+@media (max-width:380px) {
+    
+    .title_h5 h5{
+        font-size: 9px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+   
+    .vazifa_title_h5_icon h5{
+        font-size: 9px;
+        margin-left: 20px;
+    }
+   
+    .title_file_icon h6 {
+        font-size: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .close_x_delete{
+        font-size: 15px;
+        margin-top: -10px;
+    }
+    .inp_vazifa{
+        font-size: 10px;
+        padding-left: 5px;
+    }
+    .vector{
+        font-size: 18px;
+        margin-left: 15px;
+    }
+    .file{
+        font-size: 18px;
+    }
+    .search_file_small {
+        width: 100%;
+        border-radius: 5px;
+        height: 115px;
+        border: 2px solid rgba(128, 128, 128, 0.493);
+    }
+    .yubor{
+        width: 100px !important;
+        height: 34px;
+        border-radius: 4px;
+        margin-top: 20px;
+        border: none;
+        background-color: #536DFD;
+        color: #fff;
+        position: absolute;
+        right: 0;
+        font-size: 12px;
+    }
 }
