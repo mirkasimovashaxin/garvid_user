@@ -34,8 +34,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     color: #fff;
     font-size: 25px;
@@ -64,8 +64,13 @@
     margin-left: 0px;
 }
 .checbox {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
+    color: white !important;
+}
+#chexbox{
+    font-size: 1em;
+    cursor: pointer; 
 }
 
 .vazifa_title_h5_icon {
@@ -286,6 +291,10 @@ margin-top: 15px;
 }
 
 @media (max-width:600px) {
+    .checbox{
+        width: 13px;
+        height: 13px;
+    }
     .skachat_div_blue {
         display: flex;
         align-items: center;
@@ -407,7 +416,7 @@ margin-top: 15px;
     }
    
     .title_file_icon h6 {
-        font-size: 10px;
+        font-size: 9px;
         margin-top: 10px;
         margin-left: 10px;
     }
@@ -433,8 +442,8 @@ margin-top: 15px;
         border: 2px solid rgba(128, 128, 128, 0.493);
     }
     .yubor{
-        width: 100px !important;
-        height: 34px;
+        width: 90px !important;
+        height: 30px;
         border-radius: 4px;
         margin-top: 20px;
         border: none;
@@ -443,5 +452,35 @@ margin-top: 15px;
         position: absolute;
         right: 0;
         font-size: 12px;
+    }
+}
+
+@media (max-width:350px) {
+    .chec {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        border: 1px solid rgba(128, 128, 128, 0.5);
+        align-items: center;
+        text-align: center;
+        color: green;
+        font-size: 16px;
+        padding-top: 1px;
+    }
+    .skachat_div_blue {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 17px;
+        background-color: #536DFD;
+        margin-left: 15px;
+    }
+    .checbox{
+        width: 11px;
+        height: 11px;
     }
 }

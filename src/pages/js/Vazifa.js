@@ -15,7 +15,7 @@ export default function Vazifa() {
           <div className="checbox_skachat_div">
             
             <div className="bilmiman_vazifa">
-              <input type="checkbox" className='checbox' />
+              <input type="checkbox" className='checbox' id='chexbox' />
             <div className="skachat_div_blue">
               <BsArrowDownShort />
             </div>
@@ -37,7 +37,7 @@ export default function Vazifa() {
 <div className="checbox_skachat_div">
   
   <div className="bilmiman_vazifa">
-    <input type="checkbox" className='checbox' />
+    <input type="checkbox" className='checbox' id='chexbox' />
   <div className="skachat_div_blue">
     <BsArrowDownShort />
   </div>
@@ -59,7 +59,7 @@ export default function Vazifa() {
 <div className="checbox_skachat_div">
   
   <div className="bilmiman_vazifa">
-    <input type="checkbox" className='checbox' />
+    <input type="checkbox" className='checbox' id='chexbox' />
   <div className="skachat_div_blue">
     <BsArrowDownShort />
   </div>
@@ -81,7 +81,7 @@ export default function Vazifa() {
 <div className="checbox_skachat_div">
   
   <div className="bilmiman_vazifa">
-    <input type="checkbox" className='checbox' />
+    <input type="checkbox" className='checbox' id='chexbox' />
   <div className="skachat_div_blue">
     <BsArrowDownShort />
   </div>
@@ -113,7 +113,7 @@ export default function Vazifa() {
             <div className="line_vazifa"></div>
             <div className="vector_icon_div">
               <LuPaperclip className='vector' />
-              <input type="text" placeholder='Задача оживить' className='inp_vazifa' />
+              <input type="text" placeholder='Отправить задачу' className='inp_vazifa' />
             </div>
           </div>
           <button className='yubor'>Отправить</button>
