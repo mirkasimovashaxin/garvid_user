@@ -10,7 +10,11 @@ import { BiTime } from 'react-icons/bi'
 import '../css/youtube1.css';
 import Accordion from 'react-bootstrap/Accordion';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {TbInfoTriangleFilled} from 'react-icons/tb'
 export default function Youtube1() {
+  const[state, setState]=React.useState(1)
+
+  
   return (
     <div>
 
@@ -190,6 +194,15 @@ export default function Youtube1() {
             </Accordion>
           </div>
         </div>
+        <div className="navbar_kotta">
+          <div className="navbar_video">
+            <p>Вопрос-ответ</p>
+            <p>Задания</p>
+            <p>Руководства</p>
+            <p>Скачать</p>
+          </div>
+          <div className="navbar_info"><p><TbInfoTriangleFilled/> Правила</p></div>
+          </div>
       </div>
     </div>
   )
