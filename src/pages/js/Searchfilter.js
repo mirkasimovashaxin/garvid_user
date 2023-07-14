@@ -64,12 +64,10 @@ export default function Searchfilter() {
                 </div>
             </div>
 
-
-
             <div className="kurs_cards">
                 <div className="kurs_card">
                     <button className='btn_das'>Dasturlash</button>
-                    <img src={Rasp} alt="" />
+                    <img  src={Rasp} alt="" />
                     <h4>Ishlab chiquvchilar uchun AWS: ECS <br />
                         va ko'p mintaqali yuklarni <br />
                         muvozanatlash</h4>
@@ -151,12 +149,6 @@ export default function Searchfilter() {
                     <h4>Yangi kurs qo’shish</h4>
                 </div>
             </div>
-
-
-
-
-
-
 
             <div className="spiska_img_title_div">
                 <div className="Spiska_blok">
@@ -280,8 +272,6 @@ export default function Searchfilter() {
                     </div>
                 </div>
             </div>
-
-
         </div>
     )
 }
