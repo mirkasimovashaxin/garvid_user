@@ -7,6 +7,7 @@ import Services from './pages/js/Services'
 import Ourteam from './pages/js/Ourteam'
 import User from "./pages/js/user"
 import Mento from "./pages/js/Mentor"
+import Video from "./pages/js/Youtube1"
 
 
 import './App.css'
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path="/user" element={<User/>}/>
         <Route path="/mentor" element={<Mento/>}/>
+        <Route path="/video" element={<Video/>}/>
 
           {/* <Route index element={} />*/}
       </Routes>

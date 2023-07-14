@@ -31,7 +31,9 @@ export default function Searchfilter() {
         document.querySelector(".spiska_img_title_div").style = "display:block;transition:3s"
 
     }
-
+    function youtubeModal(){
+        window.location="/video"
+    }
 
 
     return (
@@ -92,7 +94,7 @@ export default function Searchfilter() {
                                     <p>Разделы курса</p>
                                     <h3 className='soat'>38 часы</h3>
                                 </div>
-                                <div className="left_icon">
+                                <div onClick={()=>youtubeModal()} className="left_icon">
                                     <HiArrowRight />
                                 </div>
                             </div>
@@ -124,7 +126,7 @@ export default function Searchfilter() {
                                     <p>Разделы курса</p>
                                     <h3 className='soat'>38 часы</h3>
                                 </div>
-                                <div className="left_icon">
+                                <div onClick={()=>youtubeModal()} className="left_icon">
                                     <HiArrowRight />
                                 </div>
                             </div>
@@ -156,7 +158,7 @@ export default function Searchfilter() {
                                     <p>Разделы курса</p>
                                     <h3 className='soat'>38 часы</h3>
                                 </div>
-                                <div className="left_icon">
+                                <div onClick={()=>youtubeModal()} className="left_icon">
                                     <HiArrowRight />
                                 </div>
                             </div>
@@ -196,7 +198,7 @@ export default function Searchfilter() {
                                     </div>
 
                                 </div>
-                                <div className="left1_icon">
+                                <div onClick={()=>youtubeModal()} className="left1_icon">
                                     <HiArrowRight />
                                 </div>
                             </div>
@@ -226,7 +228,7 @@ export default function Searchfilter() {
                                     </div>
 
                                 </div>
-                                <div className="left1_icon">
+                                <div onClick={()=>youtubeModal()} className="left1_icon">
                                     <HiArrowRight />
                                 </div>
                             </div>
@@ -256,7 +258,7 @@ export default function Searchfilter() {
                                     </div>
 
                                 </div>
-                                <div className="left1_icon">
+                                <div onClick={()=>youtubeModal()} className="left1_icon">
                                     <HiArrowRight />
                                 </div>
                             </div>
@@ -286,7 +288,7 @@ export default function Searchfilter() {
                                     </div>
 
                                 </div>
-                                <div className="left1_icon">
+                                <div onClick={()=>youtubeModal()} className="left1_icon">
                                     <HiArrowRight />
                                 </div>
                             </div>

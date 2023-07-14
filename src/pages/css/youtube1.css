@@ -11,7 +11,7 @@
    
 }
 .youtube_kotta_img{
-    width: 64%;
+    width: 60%;
 
 }
 .img_youtube_kotta img{
@@ -218,7 +218,7 @@ margin-bottom: 20px;
 
 
 .youtube_kichkina{
-    width: 37%;
+    width: 38%;
 }
 
 
@@ -521,7 +521,7 @@ color: #9DA7BB;
             color: #2E2E2E !important;
             width: 40px;
             height: 40px;
-            font-size: 15px;
+            font-size: 13px;
             
             margin-top: -30px;
         }
@@ -682,7 +682,7 @@ color: #9DA7BB;
         }
 }
 
-@media (max-width:410px) {
+@media (max-width:420px) {
     .accordion_text h6 {
             font-size: 10px;
             line-height: 13px;
@@ -690,10 +690,179 @@ color: #9DA7BB;
 
         .accordion_text p {
             margin-top: 7px;
-            font-size: 13px;
+            font-size: 12px;
         }
 
         .accordion_img img {
             width: 90px;
         }
+
+        .odtel_media_uchun h1 {
+            font-size: 12px;
+            color: #2E2E2E;
+        }
+
+        .flex_star_p {
+            display: flex;
+            margin-top: -10px;
+        }
+
+        .p_4_1_5245 {
+            gap: 5px;
+            font-size: 10px;
+            margin-left: 5px;
+            margin-top: 3px;
+        }
+
+
+
+        .buttons_next_back button {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border: none;
+            background-color: #fff;
+            border-radius: 50%;
+            color: #2E2E2E !important;
+            width: 30px;
+            height: 30px;
+            font-size: 10px;
+            
+            margin-top: -40px;
+        }
+    
+        .raspberry_pid h1 {
+            font-size: 12px;
+            line-height: 23px;
+            margin: auto;
+            margin-left: 0;
+        }
+    
+        .line_height {
+            width: 1px;
+            height: 45px;
+            border: none;
+            background-color: #9DA7BB;
+            margin-right: 25px;
+        }
+    
+        .raspberry_pid p {
+            font-size: 10px;
+            line-height: 20px;
+    
+        }.accordion-button{
+            font-size: 13px;
+        }
+}
+@media (max-width:380px) {
+    .accordion_text h6 {
+        font-size: 9px;
+        line-height: 13px;
+    }
+
+    .accordion_text p {
+        margin-top: 7px;
+        font-size: 10px;
+    }
+
+    .accordion_img img {
+        width: 80px;
+    }
+}
+
+
+
+@media (max-width:350px) {
+    .accordion_text h6 {
+            font-size: 9px;
+            line-height: 13px;
+        }
+
+        .accordion_text p {
+            margin-top: 7px;
+            font-size: 10px;
+        }
+
+        .accordion_img img {
+            width:75px;
+        }
+
+        .odtel_media_uchun h1 {
+            font-size: 11px;
+            color: #2E2E2E;
+        }
+
+        .flex_star_p {
+            display: flex;
+            margin-top: -10px;
+        }
+
+        .p_4_1_5245 {
+            gap: 5px;
+            font-size: 9px;
+            margin-left: 5px;
+            margin-top: 3px;
+        }
+
+
+
+        .buttons_next_back button {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            border: none;
+            background-color: #fff;
+            border-radius: 50%;
+            color: #2E2E2E !important;
+            width: 30px;
+            height: 30px;
+            font-size: 10px;
+            margin-top: -40px;
+        }
+    
+        .raspberry_pid h1 {
+            font-size: 11px;
+            line-height: 23px;
+            margin: auto;
+            margin-left: 0;
+        }
+    
+        .line_height {
+            width: 1px;
+            height: 45px;
+            border: none;
+            background-color: #9DA7BB;
+            margin-right: 20px;
+        }
+    
+        .raspberry_pid p {
+            font-size: 9px;
+            line-height: 20px;
+    
+        }.accordion-button{
+            font-size: 11px;
+        }
+        .flex_star2 {
+            display: flex;
+            align-items: center;
+            font-size: 11px;
+        }
+
+        .flex_star12 {
+            display: flex;
+            align-items: center;
+            font-size: 11px;
+        }
+        .post_ava button{
+            text-align: center;
+            background-color: #536DFD;
+            color: white;
+            width: 80px;
+            height: 20px;
+            border-radius: 2px;
+            border: none;
+            font-size: 9px;
+            margin: auto;
+            margin-right: 0;
+}
 }

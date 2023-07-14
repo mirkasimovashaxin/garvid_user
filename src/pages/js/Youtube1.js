@@ -6,7 +6,6 @@ import { AiFillStar } from 'react-icons/ai'
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs'
 import '../css/youtube1.css'
 import Navbar from '../js/Navbar'
-import Vazifa from '../js/Vazifa'
 import { BiTime } from 'react-icons/bi'
 import '../css/youtube1.css';
 import Accordion from 'react-bootstrap/Accordion';
@@ -14,7 +13,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function Youtube1() {
   return (
     <div>
-
 
       <div className='youtube_bgc'>
         <div className="flex_youtube">
@@ -77,7 +75,7 @@ export default function Youtube1() {
                   <div className="accordion_flex">
                     <div className="accordion_img"><img src={img_accordion} alt="" /></div>
                     <div className="accordion_text">
-                      <h6>1.1 Boshlang’ich o’zgaruvchilar haqida ma’lumot</h6>
+                      <h6>1.1 Boshlang’ich o’zgaruvchilar haqida</h6>
                       <p><span><BiTime /> </span>01:07:15</p>
                     </div>
                   </div>
@@ -125,7 +123,7 @@ export default function Youtube1() {
                   <div className="accordion_flex">
                     <div className="accordion_img"><img src={img_accordion} alt="" /></div>
                     <div className="accordion_text">
-                      <h6>1.1 Boshlang’ich o’zgaruvchilar haqida ma’lumot</h6>
+                      <h6>1.1 Boshlang’ich o’zgaruvchilar haqida</h6>
                       <p><span><BiTime /> </span>01:07:15</p>
                     </div>
                   </div>
@@ -193,7 +191,6 @@ export default function Youtube1() {
           </div>
         </div>
       </div>
-      <Vazifa />
     </div>
   )
 }
